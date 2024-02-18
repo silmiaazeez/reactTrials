@@ -1,9 +1,20 @@
 
+class Car{
+  constructor(name){
+    this.brand=name;
+  }
+}
+class Model extends Car{
+  constructor (name,model){
+    this.model=model;
+  }
+}
+const myCar=new Model("Audi");
 
 function HelloWorld() {
     return (
       <div>
-        <h1>HelloWorld</h1>
+        <h1>Hello....myCar.brand</h1>
       </div>
     )
 }
