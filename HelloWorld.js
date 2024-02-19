@@ -9,7 +9,7 @@ class Model extends Car{
     this.model=model;
   }
 }
-const myCar=new Model("Audi");
+const myCar=new Model("Audi","2024");
 
 function HelloWorld() {
     return (
