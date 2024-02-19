@@ -14,7 +14,7 @@ const myCar=new Model("Audi");
 function HelloWorld() {
     return (
       <div>
-        <h1>Hello....myCar.brand</h1>
+        <h1>Hello....myCar.brand is myCar.model</h1>
       </div>
     )
 }
