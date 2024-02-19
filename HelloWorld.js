@@ -11,7 +11,7 @@ class Model extends Car{
 }
 const myCar=new Model("Audi","2024");
 
-function HelloWorld() {
+HelloWorld = () => {
     return (
       <div>
         <h1>Hello....myCar.brand is myCar.model</h1>
