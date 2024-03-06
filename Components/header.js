@@ -1,13 +1,12 @@
 import React from 'react';
 import  './headerFooter.css';
 import logo from './logo.svg';
+import LabelComponent from './labelComponent';
 
 function  Header(){
     return (
         <div  className="header">
-        <div className=" span">      
-        <span>react-app </span>         
-        </div> 
+        <LabelComponent id="react" />;   
         <div>
          <img src={logo}  className="logo" alt="logo" />  
          </div>
