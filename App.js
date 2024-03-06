@@ -1,6 +1,5 @@
 import logo from './logo.svg';
 import './App.css';
-import HelloWorld from './HelloWorld';
 
 function App() {
   return (
@@ -18,15 +17,9 @@ function App() {
         >
           Learn React
         </a>
-
-            <HelloWorld />
       </header>
     </div>
   );
 }
 
-//export default App;
-
-export default function Square() {
-  return <button className="square"><h1><App/></h1>X</button>;
-}
+export default App;
