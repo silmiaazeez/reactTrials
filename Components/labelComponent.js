@@ -16,8 +16,10 @@ class LabelComponent extends React.Component{
         var l1=  " ";
         if(props.id==="ListLabel")
           l1=   <label className="label-Style1"> ------ {props.id}  ------ </label>;
-         if(props.id==="ArrayLabel")
-          l1=   <label className="label-Style2"> ------ {props.id}  ------ </label>;
+        if(props.id==="ArrayLabel")
+        l1=   <label className="label-Style2"> ------ {props.id}  ------ </label>;
+        if(props.id==="react")
+        l1=   <label className="label-Style2"> ------ {props.id}  ------ </label>;
         if(props.id==="LinkLabel" || props.onAction)
           l1=  <label className="label-Style3"> ------ {props.id}  ------ 
               <div> 
@@ -27,6 +29,7 @@ class LabelComponent extends React.Component{
                 }}
                 > Learn</a>
              </div> </label>;
+       
         return l1;
         
     }
