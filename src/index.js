@@ -3,11 +3,9 @@ import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
 
 import './index.css';
-import Header from './Components/header';
 import Footer from './Components/footer';
 import  './Components/labelClass.css';
 import BodyComponent from  './Components/divBody';
-import LabelComponent from './Components/labelComponent';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -21,9 +19,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <React.StrictMode>  
-    <LabelComponent id="react" />;   
-
-    <BodyComponent />
+"src"
+      <BodyComponent />
   <Footer />
   
   </React.StrictMode>
