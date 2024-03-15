@@ -6,7 +6,7 @@ import LabelComponent from './labelComponent';
 function  Header(){
     return (
         <div  className="header">
-        <LabelComponent id="react" />;   
+        <LabelComponent id="React" /> 
         <div>
          <img src={logo}  className="logo" alt="logo" />  
          </div>

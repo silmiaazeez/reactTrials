@@ -14,15 +14,14 @@
 }
 
 .logo {
-      height: 10vmax; 
+    height: 10vmax; 
     width:25vmin;  
     pointer-events: none;
   }
 
 .footer{
-  height: 10vmax; 
-  width:100vmax;
   font-size:large ;
   color: rgba(38, 38, 37, 0.451);
   justify-content: center;
+  border-style:solid; 
 }
