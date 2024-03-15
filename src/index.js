@@ -3,29 +3,18 @@ import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
 
 import './index.css';
-import Footer from './Components/footer';
-import  './Components/labelClass.css';
-import BodyComponent from  './Components/divBody';
+/* import Header from './Components/header';
+import Footer from './Components/footer';  
+import BodyComponent from  './Components/divBody';   */
+import Firebase from './firebaseDb';
+//import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-
-/* ListArr.propTypes={
-  name:PropTypes.string.isRequired
-} */
-/* LabelComponentFn.propTypes={
-  id:PropTypes.string.isRequired
-} */
-
-
-root.render(
-  <React.StrictMode>  
-"src"
-      <BodyComponent />
-  <Footer />
-  
-  </React.StrictMode>
+root.render(      
+     //<div><App /></div>
+     <Firebase />   
+    // <div><Header /><BodyComponent /><Footer /> </div></div>
 );
-
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

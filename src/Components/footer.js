@@ -5,13 +5,12 @@ import LabelComponent from './labelComponent';
 class Footer extends React.Component {
    render(){
     const link=
-      <a  className="footer"
+    <div  className="footer"> <a 
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
-        >  <LabelComponent id="LinkLabel"  />
-        </a>
-       
+        > <LabelComponent id="LinkLabel"  />
+        </a> </div>     
         return link;
     }
     
